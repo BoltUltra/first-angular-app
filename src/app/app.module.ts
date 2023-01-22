@@ -9,6 +9,8 @@ import { ServersComponent } from './servers/servers.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { PrimaryComponent } from './primary-alert/primary.component';
+import { ButtonsComponent } from './buttons/buttons.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { PrimaryComponent } from './primary-alert/primary.component';
     WarningAlertComponent,
     SuccessAlertComponent,
     PrimaryComponent,
+    ButtonsComponent,
+    CardComponent,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
